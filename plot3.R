@@ -1,3 +1,6 @@
+# set locale
+# Sys.setlocale("LC_ALL", "en_US.UTF-8")
+
 library(data.table)
 pc <- fread("household_power_consumption.txt")
 
