@@ -26,7 +26,7 @@ subpc$Global_reactive_power <- as.numeric(subpc$Global_reactive_power)
 png(filename="plot4.png", width=480, height=480)
 par(mfcol = c(2,2))
 # plot2
-plot(x=subpc$datetime, y=subpc$Global_active_power, type="l", xlab=NA, ylab="Global Active Power (kilowatts)")
+plot(x=subpc$datetime, y=subpc$Global_active_power, type="l", xlab=NA, ylab="Global Active Power")
 # plot3
 plot(x=subpc$datetime, y=subpc$Sub_metering_1, type="l", xlab=NA, ylab="Energy sub metering")
 points(x=subpc$datetime, y=subpc$Sub_metering_2, type="l", col="red")
